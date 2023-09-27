@@ -1,0 +1,467 @@
+body{
+    padding: 20px;
+    padding-top: 10px;
+    background-color:aliceblue;
+    display: block;
+    
+    
+}
+.nave{
+    display: flex;
+    display: block;
+    width: 100%;
+    background-color: #16453f;
+    border-radius: 15px;
+    
+}
+.logo{
+    display: inline-block;
+    padding: 20px;
+    width:  40%;
+    margin-top: 6px;
+    margin-left: 10px;
+    
+}
+#logo{
+    border-radius: 40px;
+}
+.menu{
+    position: absolute;
+    margin-top: 42px;
+    padding: 20px;
+    word-spacing: 40px;
+    text-decoration: none;
+    display: inline;
+    width: 50%;
+    text-align: right;
+    text-decoration: none; 
+}
+.menu a{
+    text-decoration: none;
+    width: 21%;
+    text-align: right;
+    color:black;
+    word-spacing: 4px;
+    background-color: #f0debb;
+    border-radius: 4px;
+    padding: 7px;
+}
+
+
+/*Fim do Cabeçalho e body*/
+/*-----------------------------------------------------------------------------------------------------*/
+
+
+
+
+.principal{ 
+  background-color: aliceblue;
+  margin: 0.5%;
+  
+  
+}
+
+
+
+
+
+
+.img1{
+    background-image:    url(/img/caminhar-faz-bem.webp);
+    background-size:cover;
+    background-repeat: no-repeat;
+    width: 70%;
+    height: 560px;
+    border-radius: 15px;
+    float: left;
+    
+    background-color: black;
+    
+}
+#tituloimg1{
+    text-align: center;
+    font-size: xxx-large;
+    color: black;
+    width: 50%;
+    margin-left: 25%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+#textoimg1{
+    text-align: center;
+    color: black;
+    font-size: large;
+    width: 80%;
+    margin-left: 10%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+.ttimg1{
+    width: 100%;
+    text-align: center;
+    margin-top: 17%;
+    margin-bottom: 21%;
+}
+#smimg1{
+    margin-left: 43%;
+}
+
+
+
+
+
+
+.img2{
+    background-image: url(/img/Captura\ de\ tela\ 2023-09-11\ 194027.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    float: right;
+    width: 100%;
+    height: 48%;
+    border-radius: 15px;  
+    background-color: black;  
+}
+#tituloimg2{
+    text-align: center;
+    font-size: xx-large;
+    color: black;
+    width: 50%;
+    margin-left: 25%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+#textoimg2{
+    text-align: center;
+    color: black;
+    font-size: small;
+    width: 50%;
+    margin-left: 25%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    
+}
+.ttimg2{
+    width: 100%;
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 16%;
+}
+#smimg2{
+    margin-left: 36%;
+}
+
+
+
+
+
+.img3{
+    background-image: url(/img/img3.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    float: right; 
+    width: 100%  ;
+    height: 48%;
+    border-radius: 15px;
+    margin-top: 5.6%;
+    background-color: black;
+}
+#tituloimg3{
+    text-align: center;
+    font-size: xx-large;
+    color: black;
+    width: 50%;
+    margin-left: 25%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    color: white;
+}
+#textoimg3{
+    text-align: center;
+    color: black;
+    font-size: small;
+    width: 50%;
+    margin-left: 25%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color: white;
+   
+}
+.ttimg3{
+    width: 100%;
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 8%;
+   
+}
+#smimg3{
+    margin-left: 37%;
+}
+
+
+
+
+
+
+
+#imgs23{
+    float: right;
+    
+    justify-content: center;
+    width: 35%;
+    margin-left: 2%;
+}
+
+
+
+
+
+.div123{
+    display: flex;
+    
+   
+}
+.img1:hover{
+ opacity: 1;
+}
+.img2:hover{
+    opacity: 1;
+}
+.img3:hover{
+    opacity: 1;
+}
+
+
+/*Fim do Principal */
+/*-----------------------------------------------------------------------------------------------------*/
+
+
+.barraum{
+    
+    background-image: url(/img/stock-photo-abstract-background-light-blue-polygonal-pattern.jpg);
+    width: 99%;
+    height: 250px;
+    margin-top: 19px;
+    border-radius: 15px;
+    margin-left: 7px;
+    margin-right: 7px;
+    display:inline-block;
+}
+#tituloimg4{
+    text-align: center;
+    font-size: 27px;
+    color: black;
+    width: 33%;
+    font-family: 'Luminari', 'fantasy',Impact, 'Arial Narrow Bold', sans-serif;
+}
+#textoimg4{
+    margin-top: 3%;
+    text-align: center;
+    color: black;
+    font-size: 16px;
+    width: 70%;
+    margin-left: 15%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+.ttimg4{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 4%;
+}
+#smimg4{
+    margin-left: 45%;
+}
+
+
+
+
+
+
+
+.blocobv{
+    display: flex;
+}
+
+.blocobranco{
+  margin: 20px;
+  width: 39%;
+  height: 580px;
+  background-color: white;
+
+}
+#tituloimg5{
+    text-align: center;
+    font-size: 13px;
+    color: black;
+    width: 50%;
+    margin-left: 22%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#textoimg51{
+    text-align: center;
+    color: lightgreen;
+    font-size: small;
+    width: 50%;
+    margin-left: 25%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+#textoimg52{
+    text-align: center;
+    color: black;
+    font-size: small;
+    width: 50%;
+    margin-left: 15%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+#textoimg53{
+    text-align: center;
+    color: black;
+    font-size: small;
+    width: 50%;
+    margin-left: 25%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+#textoimg54{
+    text-align: center;
+    color: black;
+    font-size: small;
+    width: 50%;
+    margin-left: 25%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+.ttimg5{
+    width: 100%;
+    text-align: center;
+    margin-top: 20%;
+    margin-bottom: 45%;
+}
+#smimg5{
+    margin-left: 35%;
+}
+
+
+
+
+
+.blocoverde{
+    margin: 20px;
+    background-color: rgb(95, 255, 95);
+    float: right;
+    color: white;
+    width: 60%;
+    height: 580px;
+}
+#tituloimg6{
+    text-align: center;
+    font-size: 40px;
+    color: white;
+    width: 50%;
+    margin-left: 5%;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+#textoimg61{
+    text-align: center;
+    font-size: 16px;
+    color: white;
+    width: 80%;
+    margin-left: 10%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+#textoimg62{
+    text-align: center;
+    font-size: 16px;
+    color: white;
+    width: 80%;
+    margin-left: 10%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+.ttimg6{
+    width: 100%;
+    text-align: center;
+    margin-top: 8%;
+    margin-bottom: 4%;
+}
+#smimg6{
+    margin-left: 40%;
+}
+
+
+
+
+
+.saibamais{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    margin-left: 45%;
+    padding: 8px;
+    padding-right: 25px;
+    padding-left: 25px;
+    background-color: white;
+     border-radius: 10px;
+}
+.saibamais:hover{
+    background-color: chartreuse;
+    border-style: ridge ;
+    padding: 12px;
+    padding-right: 30px;
+    padding-left: 30px;
+    margin-left: 44%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*Inicio do mapa e rodape*/
+#mapaid{
+    width: 100%;
+    height: 210px;
+    margin: 0%;
+}
+.rodapeid{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif, Helvetica, sans-serif;
+
+}
+/*Fim do mapa e rodape*/
+
+
+
+
+
+
+
+
